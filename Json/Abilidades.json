@@ -1,0 +1,73 @@
+{
+  
+  
+"p1":{
+
+  "img":"img/abilidades/1",
+  "texto":"html"
+},
+
+
+"p2":{
+
+  "img":"img/abilidades/2",
+  "texto":"css"
+},
+
+
+"p3":{
+
+  "img":"img/abilidades/3",
+  "texto":"javascript"
+},
+
+
+"p4":{
+
+  "img":"img/abilidades/4",
+  "texto":"php"
+},
+
+
+
+"p5":{
+
+  "img":"img/abilidades/5",
+  "texto":"git"
+},
+
+
+
+"p6":{
+
+  "img":"img/abilidades/6",
+  "texto":"Ajax"
+},
+
+
+
+"p7":{
+
+  "img":"img/abilidades/7",
+  "texto":"node.js"
+},
+
+
+
+"p8":{
+
+  "img":"img/abilidades/8",
+  "texto":"SQL"
+},
+
+
+
+"p9":{
+
+  "img":"img/abilidades/9",
+  "texto":"api"
+}
+
+
+  
+}

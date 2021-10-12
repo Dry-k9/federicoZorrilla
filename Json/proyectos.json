@@ -1,0 +1,37 @@
+{
+  
+  
+  
+"p2":{
+
+  "img":"img/proyect/modelo.png",
+  "texto":"Stacy Lorenz",
+  "dir":"secundary/proyectos/modelo"
+},
+
+  
+
+
+"p1":{
+
+  "img":"img/proyect/pastasTito.png",
+  "texto":"Pastas Tito",
+  "dir":"secundary/proyectos/pastasTito"
+},
+
+
+
+
+
+
+
+"pz":{
+
+  "img":"img/proyect/ultimo",
+  "texto":"Mas proyectos en gitHub",
+  "dir":"https://github.com/Dry-k9"
+}
+
+
+  
+}

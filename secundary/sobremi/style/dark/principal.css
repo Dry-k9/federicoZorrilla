@@ -1,0 +1,291 @@
+ @import url('blokes/1-portada.css');
+ @import url('blokes/2-menu.css');
+ @import url('blokes/3-perfil.css');
+ @import url('blokes/4-proyectos.css');
+ @import url('blokes/5-abilidades.css');
+ @import url('blokes/6-sobreMi.css');
+ @import url('blokes/7-footer.css');
+ 
+ 
+ 
+ 
+  *{
+    
+    box-sizing:border-box;
+    
+    margin:0;
+    padding:0;
+  }
+ 
+  
+  
+  a{
+    
+    text-decoration:none;
+    
+  }
+ 
+ 
+ 
+  body{
+    
+    
+    min-height:100vh;
+    
+    text-align:center;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    background:#444;
+    color:#fff;
+  }
+  
+  
+  
+  
+  .container{
+    
+    //margin:15px;
+    padding:20px;
+    
+    //box-shadow:0px 0px 5px #444;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    text-align:center;
+    
+    max-width:500px;
+    
+  }
+  
+  
+  
+  
+  
+  .bocke{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    margin:10px;
+    margin-top:50px;
+    padding: 15px;
+    
+    box-shadow: 1px 2px 5px #000;
+    background:#555;
+  }
+  
+  
+  
+  
+  .titulo{
+    
+    //box-shadow:1px 1px 2px #aaa;
+    
+    padding: 5px;
+    
+    font-size:1.4rem;
+    
+    min-width:40%;
+    
+    color:#afd;
+    
+  }
+  
+  
+  
+  
+  
+  h2{
+    
+    font-size:1.3rem;
+    color:#adf;
+    margin:5px;
+    
+    min-width:70%;
+    
+  }
+  
+  
+  
+  
+  h3{
+    
+    font-size:1.3rem;
+    color:#adf;
+    margin:5px;
+    margin-top:0;
+    
+    min-width:70%;
+    
+   // border-bottom:1px solid red;
+    
+    padding-bottom:40px;
+  }
+  
+  
+  
+  
+  h4{
+    
+    font-size:1.5rem;
+    color:#acf;
+    margin:15px;
+    //margin-top:70px;
+    margin-bottom:10px;
+    
+    min-width:90%;
+    
+  }
+  
+  
+  
+  
+  .pasatiempo{
+    
+    color: #acf;
+    border-left: 4px solid red;
+    margin:5px;
+    padding:5px;
+    margin-bottom:15px;
+    
+    box-shadow: 1px 2px 3px #000;
+    
+    width:93%;
+    background:#777;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .parrafo1, .parrafo2, .parrafo3, .parrafo4, .parrafo5{
+    
+    font-size:1.2rem;
+    color:#9cf;
+    margin:15px;
+    
+    min-width:90%;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  
+  
+  
+  
+  .parrafo5 > a{
+    
+    color:red;
+  }
+  
+  
+  
+  
+  
+  dl{
+    
+    //background:red;
+    
+    //min-width:40%;
+    color:#9cf;
+  }
+  
+  
+  
+  
+  dt{
+    
+    
+  }
+  
+  
+  dd{
+    
+    //margin:5px;
+    font-size:1.2rem;
+    color:#9cf;
+  }
+  
+  
+  
+  
+  .foto1, .foto2, .foto3, .foto4{
+    
+    border-radius:20px;
+    box-shadow: 1px 2px 2px #000;
+    
+   height:200px;   
+   width: 200px;   
+   
+   margin-top:20px;
+   margin-bottom:10px;
+  }
+
+
+
+  
+  
+  
+  
+  .foto1{
+    
+   background:url("../../../../img/perfil.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  .foto2{
+    
+   background:url("../../../../img/perfil.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+   
+  }
+  
+  
+  .foto3{
+    
+   background:url("../../../../img/perfil.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+   
+   
+  }
+  
+  
+  .foto4{
+    
+   background:url("../../../../img/perfil.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+   
+  }

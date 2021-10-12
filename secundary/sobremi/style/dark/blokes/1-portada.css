@@ -1,0 +1,27 @@
+
+
+  .portada{
+   
+   display:flex;
+   justify-content:flex-start;
+   //background:#ff0;
+   
+   width:100vw;
+   margin-bottom:30px;
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  .menu{
+    
+    margin-top:10px;
+    
+    color:#fff;
+    text-shadow:2px 2px 4px #777;
+    
+  }

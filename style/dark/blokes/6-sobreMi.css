@@ -1,0 +1,213 @@
+
+
+  .sobreMi{
+    
+    margin-bottom:20px;
+    
+    width:100vw;
+    
+    
+    display:flex;
+    flex-direction:column;
+    //justify-content:center;
+    //align-items:center;
+    
+  }
+  
+  
+  
+  
+  
+  .sobreMi_contenedor{
+    
+    box-shadow: 0px 0px 10px #222;
+    
+    min-width:340px;
+    max-width:80vw;
+    
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    
+    display:grid;
+   grid-template-columns:repeat(auto-fit, minmax(330px, 330px));
+   
+    grid-gap        :15px;
+    
+    
+    margin:auto;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-top:25px;
+    margin-bottom:25px;
+    
+  }
+  
+  
+  
+  
+  
+  .fotoSobreMi{
+    
+    background:url("../../../img/sobreMi.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  .textoContainer{
+    
+    overflow:scroll;
+    
+    height: 300px;
+    
+    color:#fff;
+    
+  }
+  
+  
+  
+  
+  
+  
+
+  .textoContainer > .texto{
+    
+    //margin-top:40px;
+    
+    
+    //background:red;
+    
+    overflow:scroll;
+    
+    //height: 250px;
+    
+    //width: 330px;
+    
+    padding-right: 35px;
+    
+    padding-left: 35px;
+    
+    z-index: 10;
+    
+  }
+  
+  
+  
+  
+  
+  
+  .verMasBotonContainer{
+    
+    border-radius:5px 5px 0px 0px;
+    
+    box-shadow: 0px -25px 10px #333;
+    
+    opacity:0.9;
+    
+    background:#333;
+    width:330px;
+    
+    height:120px;
+    
+    z-index: 20;
+    
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  
+  
+  
+  
+
+  .verMasBoton{
+    
+    background:#c00;
+    
+    border-radius:50px;
+    
+    padding:10px;
+    
+    z-index: 20;
+    
+    animation: pulsar 1.8s infinite;
+   
+  }
+
+
+
+  @keyframes pulsar {
+    
+    
+   0% {
+     
+      box-shadow: 5px 5px 1px #000; 
+      
+      padding:10px;
+      
+      font-size:1rem;
+      
+    }
+    
+   
+   10% {
+     
+      box-shadow: 0px 0px 5px #000;
+      
+      padding:9.8px;
+      
+      font-size:0.98rem;
+      
+    }
+    
+    
+   30% {
+     
+      box-shadow: 5px 5px 1px #000; 
+      
+      padding:10px;
+      
+      font-size:1rem;
+      
+    }
+    
+    
+   100% {
+     
+      box-shadow: 5px 5px 1px #000; 
+      
+      padding:10px;
+      
+      font-size:1rem;
+      
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .verMasBoton > a{
+    
+    text-decoration:none;
+    
+    color:#fff;
+    
+  }

@@ -1,0 +1,713 @@
+
+   
+    *{
+      margin:0px;
+      padding:0px;
+      box-sizing:border-box;
+      //text-align:center;
+    }
+    
+    
+      
+    body{
+      display:flex;
+      flex-direction:column;
+      min-height:100vh;
+      text-align:center;
+    }
+    
+    
+    .barra{
+      
+      background:#000;
+      color:#fff;
+      display:flex;
+      align-items:center;
+      overflow:visible;
+      max-height:80px;
+      width:100vw;
+      padding:2px;
+    }
+    
+    
+    .boton-menu{
+      
+      margin:20px;
+      margin-left:10px;
+    }
+    
+    
+    .menu-desplegado{
+      
+      background:#000;
+      border:1px solid #eee;
+      box-shadow:3px 4px 3px #666;
+      border-left:0px;
+      
+      opacity:0.9;
+      
+      height:80vh;
+      width:60vw;
+      
+      align-self:flex-start;
+      
+      display:flex;
+      flex-direction:column;
+      
+      z-index:90;
+    }
+    
+    
+    .boton-salir{
+      
+      align-self:flex-end;
+      color:red;
+      margin:10px;
+      font-size:2rem;
+    }
+    
+    
+    .items-menu{
+      
+      display:flex;
+      align-items:center;
+      justify-content:space-around;
+      flex-direction:column;
+      height:80%;
+    }
+    
+    
+    .items-menu_pc{
+      
+      
+      width:100%;
+      
+      display:grid;
+      grid-template-rows:100%;
+      grid-template-columns:repeat(4, 25%);
+    
+    }
+    
+    
+    
+    
+    .items-menu_pc > div{
+      
+      border:3px solid #000;
+      border-bottom:3px solid #ccc;
+      
+      background:#111;
+      
+      padding:18px;
+      padding-left:25px;
+      padding-right:25px;
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    
+    
+    .items-menu_pc > div:active{
+      
+      background:#b0bbb0;
+    }
+    
+    
+    a{
+      
+      text-decoration:none;
+      //font-size:2rem;
+      color:#fff;
+    }
+    
+    
+    
+    .portada{
+      
+      background :#30c0d0;
+      height     :50vh;
+      
+      
+     background         :url("../img/portada.png");
+     background-repeat  : no-repeat, repeat;
+     background-size    : cover;
+     background-position: center;
+     
+     box-shadow:0px 1px 3px #000;
+     
+     z-index:30;
+    }
+    
+    
+    
+    
+    .baner{
+      
+      background:#000;
+      height:100%;
+      
+      opacity:0.4;
+      color:#fff;
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      
+      font-size:3rem;
+      
+      z-index:40;
+      
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    
+    .content{
+      
+    }
+    
+    
+    
+    .tituloGaleria{
+      
+      //margin-top:40px;
+      
+      color:#96f3ef;
+      
+      box-shadow:0px 3px 5px #000;
+      
+      padding:3px;
+      
+    }
+    
+    
+    
+    
+    .content-galeria{
+      
+      margin-top:5px;
+      
+      padding-bottom:10px;
+      
+      background:#ddd;
+      
+      
+     display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: repeat(auto,auto);
+     
+      grid-auto-flow: dense;
+      
+    }
+    
+    
+    
+    
+    .foto{
+      
+      max-width:100%;
+      height:auto;
+      
+      box-shadow:0px 3px 5px #000;
+      
+      margin-top:0;
+    }
+    
+    
+    
+    .foto:hover{
+      
+      animation: animarBorde 1s;
+    }
+
+
+
+  @keyframes animarBorde {
+    
+    
+   0% {
+     
+      border: 0px solid #44bac8;
+    }
+    
+    
+   50% {
+     
+      border: 6px solid #44bac8;
+   }
+   
+   100% {
+     
+      border: 0px solid #44bac8;
+    }
+  }
+  
+  
+  
+  
+      .fotConten{
+       
+      display:flex;
+      align-items:center;
+      justify-content:center;
+       
+      border:1px solid #fff;
+      border-radius:5%;
+      }
+    
+    
+    
+    
+    
+    
+    
+    .descripcion{
+      
+      position:absolute;
+      
+      width:100vw;
+      min-height:100vh;
+      
+      display:none;
+      
+      color:red;
+      font-size:2rem;
+      
+      padding:4px;
+      
+    }
+    
+    
+    
+    
+    .vistaTotal{
+      
+      width:90vw;
+      height:auto;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .boton-mas{
+      
+      width:50vw;
+      height:auto;
+      
+      margin:20px;
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      
+    }
+    
+    
+    
+    
+    .boton-mas--hijo{
+      
+      min-width:100px;
+      min-height:100px;
+      
+      background:#44bac8;
+      color:#fff;
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      
+      border-radius:50px;
+      
+      opacity:0.5;
+      
+      animation: animarSombra 1.5s infinite;
+    }
+
+
+
+  @keyframes animarSombra {
+    
+    
+   0% {
+     
+     box-shadow:0px 0px 10px #46a38e;
+    }
+    
+    
+   50% {
+     
+     box-shadow:0px 0px 1px #46a38e;
+    }
+    
+   
+   100% {
+     
+     box-shadow:0px 0px 10px #46a38e;
+    }
+  }
+  
+   
+   /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+   
+   
+   
+   
+   
+   
+    
+    .content--sobreMi{
+      
+      overflow:hidden;
+      
+      background:#eee;
+      
+      margin-top:10px;
+    }
+    
+    
+    
+    
+    
+    .titulo--conoceme{
+      
+      margin-bottom:20px;
+      
+      color:#96f3ef;
+      
+      box-shadow:0px 3px 5px #000;
+      
+      padding:3px;
+    }
+    
+    
+    
+    
+    .fotoSobreMi{
+      
+      max-width:80vw;
+      
+      margin:15px;
+    }
+    
+    
+    
+    .content--sobreMi h4, .content--sobreMi h3{
+     
+      text-align:center;
+      
+      margin:10px;
+      margin-top:40px;
+    }
+    
+    
+    
+    
+    
+    
+    .conten__textoSobreMi{
+      
+      padding:20px;
+      
+      text-align:left;
+     
+    }
+    
+    
+    
+    
+    
+    .texto__sobreMi{
+      
+      overflow:hidden;
+      
+      padding:10px;
+      
+    }
+    
+    
+    
+    
+    .tapa{
+      
+     background:#ddd;
+     
+     height:80px;
+     
+     opacity:0.92;
+     
+      box-shadow: 0px -10px 20px 30px #ddd;
+      
+      border-bottom:1px solid #f00;
+      
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+    }
+    
+    
+    
+    
+    
+    .boton__verMas-sobreMi{
+      
+      padding:10px;
+      
+      margin:5px;
+      
+      background:#44bac8;
+      color:#fff;
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      
+      border-radius:50px;
+      
+      animation: animarSombra 1.5s infinite;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    footer{
+      
+      margin-top:auto;
+      padding:10px;
+      padding-top:20px;
+      
+      background:#000;
+      color:#fff;
+      
+      //min-height:30vh;
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      
+    }
+    
+    
+    
+    
+    
+    .footer-content{
+      
+      width:100%;
+      
+      display:grid;
+      grid-template-columns:50% 50%;
+      //grid-template-rows:2.5fr 1fr;
+      
+    }
+    
+    
+    
+    
+    .redes{
+      
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-around;
+      flex-direction:column;
+      
+      //min-height:90%;
+      background:#222;
+      
+      padding-left:20%;
+    }
+    
+    
+    
+    .lateral-footer{
+      
+      background:#121212;
+      
+      display:flex;
+      justify-content:center;
+      flex-direction:column;
+      
+      display:grid;
+      grid-template-columns:95%;
+      grid-template-rows:1fr 2.5fr 0.7fr;
+      
+      padding-top:5%;
+      
+    }
+    
+    
+    
+    
+    
+    .lateral-footer>input{
+      
+     background:#444;
+     
+     color:#fff;
+     
+     border-radius: 0px 0px 50px 0px;
+     
+     border:0px;
+     border-right:1px solid #44bac8;
+     border-bottom:2px solid #44bac8;
+     
+     margin-bottom:5px;
+     
+    }
+    
+    
+    
+    
+    textarea{
+      
+      background:#eaeaea;
+      
+    }
+    
+    
+    
+    
+    .lateral-footer>input:active{
+      
+     background:#d4eaf8;
+     
+    }
+    
+    
+    
+    
+    
+    .infoCopiring{
+      
+      border-top:1px solid red;
+      
+      padding-top:20px;
+      padding-bottom:10px;
+      
+      grid-column: 1/ span 2;
+      
+      color:#666;
+      
+      font-size:0.65rem;
+      
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex-direction:column;
+      
+      
+      text-align:center;
+    }
+    
+    
+    
+    
+    
+    .letraPeque{
+      
+      font-size:0.50rem;
+    }
+    
+    
+    
+    
+    
+    .content-red{
+      
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      
+    }
+    
+    
+    
+    
+    
+    .content-red > a{
+      
+      color:#5caffe;
+    }
+    
+    
+    
+    
+    
+    
+    .logo{
+      
+      background:#fff;
+      
+      width:30px;
+      height:30px;
+      
+      border-radius:100%;
+      margin:4px;
+      margin-left:10px;
+    }
+    
+    
+    
+    
+    
+    
+    .tl{
+      
+     background         :url("../../img/contacto/1.png");
+     background-repeat  : no-repeat, repeat;
+     background-size    : cover;
+     background-position: center;
+     
+    }
+    
+    .li{
+      
+     background         :url("../../img/contacto/2.png");
+     background-repeat  : no-repeat, repeat;
+     background-size    : cover;
+     background-position: center;
+     
+    }
+    
+    .gm{
+      
+     background         :url("../../img/contacto/3.png");
+     background-repeat  : no-repeat, repeat;
+     background-size    : cover;
+     background-position: center;
+     
+    }
+    
+    .tw{
+      
+     background         :url("../../img/contacto/4.png");
+     background-repeat  : no-repeat, repeat;
+     background-size    : cover;
+     background-position: center;
+     
+    }

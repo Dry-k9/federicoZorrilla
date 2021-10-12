@@ -1,0 +1,275 @@
+ @import url('blokes/1-portada.css');
+ @import url('blokes/2-menu.css');
+ @import url('blokes/3-perfil.css');
+ @import url('blokes/4-proyectos.css');
+ @import url('blokes/5-abilidades.css');
+ @import url('blokes/6-sobreMi.css');
+ @import url('blokes/7-footer.css');
+ 
+ 
+ 
+ 
+  *{
+    
+    box-sizing:border-box;
+    
+    margin:0;
+    padding:0;
+  }
+ 
+  
+  
+  a{
+    
+    text-decoration:none;
+    
+  }
+ 
+ 
+ 
+  body{
+    
+    
+    min-height:100vh;
+    
+    text-align:center;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:#eee;
+  }
+  
+  
+  
+  
+  .container{
+    
+    //margin:15px;
+    padding:20px;
+    
+    //box-shadow:0px 0px 5px #444;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    text-align:center;
+    
+    max-width:500px;
+  }
+  
+  
+  
+  
+  
+  .bocke{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    margin:10px;
+    margin-top:40px;
+    padding: 15px;
+    
+    box-shadow: 1px 2px 5px #999;
+    background:#fff;
+  }
+  
+  
+  
+  
+  .titulo{
+    
+    //box-shadow:1px 1px 2px #aaa;
+    
+    padding: 5px;
+    
+    font-size:1.4rem;
+    
+    min-width:40%;
+    
+    color:#aed;
+    
+  }
+  
+  
+  
+  
+  
+  h2{
+    
+    font-size:1.3rem;
+    color:#034;
+    margin:5px;
+    
+    min-width:70%;
+    
+  }
+  
+  
+  
+  
+  h3{
+    
+    font-size:1.3rem;
+    color:#034;
+    margin:5px;
+    margin-top:0;
+    
+    min-width:70%;
+    
+    border-bottom:1px solid #9cd;
+    
+    padding-bottom:40px;
+  }
+  
+  
+  
+  
+  h4{
+    
+    font-size:1.5rem;
+    color:#079;
+    margin:15px;
+    //margin-top:70px;
+    margin-bottom:10px;
+    
+    min-width:90%;
+    
+  }
+  
+  
+  
+  
+  .pasatiempo{
+    
+    color: #024;
+    border-left: 4px solid #9cd;
+    margin:5px;
+    padding:5px;
+    margin-bottom:15px;
+    
+    box-shadow: 1px 2px 3px #aaa;
+    
+    width:93%;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  .parrafo1, .parrafo2, .parrafo3, .parrafo4, .parrafo5{
+    
+    font-size:1.2rem;
+    color:#023;
+    margin:15px;
+    
+    min-width:90%;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  
+  
+  
+  
+  
+  
+  dl{
+   
+  }
+  
+  
+  
+  
+  dt{
+    
+    
+  }
+  
+  
+  dd{
+    
+    font-size:1.2rem;
+  }
+  
+  
+  
+  
+  .foto1, .foto2, .foto3, .foto4{
+    
+    border-radius:20px;
+    box-shadow: 1px 2px 2px #aaa;
+    
+   height:200px;   
+   width: 200px;   
+   
+   margin-top:20px;
+   margin-bottom:10px;
+  }
+
+
+
+  
+  
+  
+  
+  .foto1{
+    
+   background:url("../../../img/perfil.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  .foto2{
+    
+   background:url("../../../img/perfil.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+   
+  }
+  
+  
+  .foto3{
+    
+   background:url("../../../img/perfil.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+   
+   
+  }
+  
+  
+  .foto4{
+    
+   background:url("../../../img/perfil.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+   
+  }

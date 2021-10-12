@@ -1,0 +1,364 @@
+
+
+  .menu{
+    
+    border-radius:0px 20px 20px 0px;
+    
+    border: 1px solid #9cd;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    
+    
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+    position:fixed;
+    
+    z-index:90;
+    
+    background:#1f1f1f;
+    
+    padding:5px;
+    padding-left:10px;
+    
+    
+    
+    
+    opacity:0.9;
+    
+    box-shadow: 4px 10px 4px #11000048;
+    
+    animation: entrada 1s;
+   
+  }
+
+
+
+  @keyframes entrada {
+    
+    
+   0% {
+     
+      border: 0px solid #9cd;
+     
+      font-size:0rem;
+      
+      padding:0px;
+      padding-left:0px;
+      
+    }
+    
+   
+   100% {
+     
+      border: 0px solid #9cd;
+     
+      font-size:1rem;
+      
+      padding:10px;
+      padding-left:25px;
+      
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .menuDesplegado{
+    
+    z-index:90;
+    
+    background:#000;
+    
+    width: 370px;
+    height: 700px;
+    
+    color:#fff;
+    position:fixed;
+    top:0px;
+    
+    animation: desplegar 0.3s;
+   
+    opacity:0.9;
+    
+    display:flex;
+    //flex-direction:column;
+    justify-content:flex-end;
+    
+    padding:20px;
+    
+  }
+
+
+
+  @keyframes desplegar {
+    
+    
+   0% {
+     
+      font-size:0rem;
+      
+      width: 0px;
+      height: 0px;
+     
+    }
+    
+    
+   70% {
+     
+      font-size:1rem;
+      
+    width: 370px;
+    height: 700px;
+      
+    }
+   
+   
+  }
+  
+  
+  
+  
+  
+  .menuDesplegado > .botonSalir{
+    
+    color:red;
+    font-size:1.8rem;
+    
+    width:40%;
+    
+    //background:red;
+    
+    display:flex;
+    //flex-direction:column;
+    //justify-content:center;
+    //align-items:flex-start;
+    
+  }
+  
+  
+  
+  
+  
+  
+  .menuDesplegado > .menuItems{
+    
+    color:#fff;
+    
+    font-size:1.8rem;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    
+    
+    //background:red;
+    
+    overflow:scroll;
+    
+    width:100%;
+    
+    padding-top:10px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  .menuItems > a,   .menuItems > p {
+    
+    color:#fff;
+    
+    text-decoration:none;
+    
+    margin:20px;
+    
+    margin-left:0px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  #animarCierre{
+    
+   background:url("../../img/spiral.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+   animation: animarCerrar 0.5s;
+   
+  }
+
+
+
+  @keyframes animarCerrar {
+    
+    
+
+   0% {
+     
+      height:60vw;
+      width:50vw;
+      border-radius:0px;
+     
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      
+     -moz-transform: rotate(0deg); 
+     
+     -webkit-transform: rotate(0deg);
+     
+    }
+    
+    
+    
+   10% {
+     
+      height:50vw;
+      width:50vw;
+      border-radius:100px;
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      
+      font-size:1rem;
+      
+     -moz-transform: rotate(-90deg); 
+     
+     -webkit-transform: rotate(-90deg);
+    }
+
+    
+    
+    
+   40% {
+     
+      height:20vw;
+      width:20vw;
+      border-radius:100px;
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+     
+      font-size:0.2rem;
+      
+     -moz-transform: rotate(-360deg); 
+     
+     -webkit-transform: rotate(-360deg);
+     
+    }
+    
+    
+    
+    
+    
+   50% {
+     
+      height:0vw;
+      width:0vw;
+      border-radius:100px;
+      
+      display:flex;
+      align-items:center;
+      justify-content:center;
+     
+      font-size:0rem;
+      
+     -moz-transform: rotate(0deg); 
+     -webkit-transform: rotate(0deg);
+     
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .cajaSwitch{
+    
+   overflow:visible;
+   margin:10px;
+  }
+
+
+
+  .switch{
+   
+   width:44px;
+   height:13px;
+   
+   background:#333;
+   
+   overflow:visible;
+   
+  // margin-right:15px;
+   
+   
+   display:flex;
+   align-items:center;
+   justify-content:flex-end;
+   
+   
+   border-radius:50px;
+  }
+  
+  
+  
+  
+  .interuptor{
+    
+   width:30px;
+   height:30px;
+   
+   border:1px solid #666;
+   
+   opacity:7;
+   
+   border-radius:50px;
+    
+    
+   image-rendering: pixelated;
+   background:url("../../img/luna.png");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
+   background-position: center;
+   
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .switch:active{
+    
+   background:#669;
+   
+  }

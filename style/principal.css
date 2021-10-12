@@ -1,0 +1,51 @@
+ @import url('blokes/1-portada.css');
+ @import url('blokes/2-menu.css');
+ @import url('blokes/3-perfil.css');
+ @import url('blokes/4-proyectos.css');
+ @import url('blokes/5-abilidades.css');
+ @import url('blokes/6-sobreMi.css');
+ @import url('blokes/7-footer.css');
+ 
+ 
+ 
+ 
+  *{
+    
+    box-sizing:border-box;
+    
+    margin:0;
+    padding:0;
+  }
+ 
+ 
+ 
+ 
+ 
+  body{
+    
+    
+    min-height:100vh;
+    
+    text-align:center;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  
+  
+  
+  iframe{
+    
+    width:95vw;
+    height:350px;
+    
+    box-shadow: 1px 1px 3px #999;
+    border-radius:20px;
+    
+    margin-top:10px;
+    margin-bottom:10px;
+    
+  }
